@@ -1,0 +1,132 @@
+body{
+	background: #2c3035;
+	color: #ffffff;
+	font-family: helvitica;
+
+}
+ ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	padding: 0px 5px 0px 5px;
+ }
+
+ .fa{
+ 	font-size: 20px;
+ }
+
+section#coco{
+	padding: 100px 0px 100px 0px;
+	background: #2c3035;
+	color: #ffffff;
+}
+
+section#coco .intro{
+	background: #2c3035;
+	padding: 40px 0px 40px 0px;
+}
+
+section#coco .intro h2{
+	font-weight: bolder;
+	font-size: 40px;
+	overflow: hidden;
+
+}
+
+section#coco .intro p{
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-family: helvitica;
+	font-size: 20px;
+}
+
+
+section#coui{
+	padding: 200px 0px 200px 0px;
+	background: #2b2d30;
+	color: #ffffff;
+}
+
+
+section#coui .nyu h3{
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+
+section#coui .nyu h3:after{
+	content: "";
+	font-size: 3px;
+	width: 40px;
+	height: 3px;
+	margin: 0 auto;
+	text-align: center;
+	background: #28abe3;
+	display: block;
+	margin-top: 10px;
+}
+
+section#coui .nyu p{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+section#two {
+	padding: 80px 0px 80px 0px;
+}
+
+section#two p{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.btn, .btn:hover{
+	background-color: #28abe3;
+	color: #ffffff;
+	border: 1px solid #28abe3;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+section#two input{
+	background-color: #4b4f53;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+
+.input-group{
+	border: 1px ;
+
+}
+
+.input-group, .form-control{
+	border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+.input-group, .btn-default{
+	border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.fa-twitter:hover{
+	color: #28abe3;
+}
+
+.fa-wrench{
+	font-size: 50px;
+	color: #28abe3;
+}
+
+@media(max-width: 768px){
+	section#coco .intro h2{
+	font-weight: bold;
+	font-size: 20px;
+	
+
+}
+}
+
+
+
